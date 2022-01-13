@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'blog',
     'portfolio',
     'program_management',
+    'todolog',
 ]
 
 MIDDLEWARE = [

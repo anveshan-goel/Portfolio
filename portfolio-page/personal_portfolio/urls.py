@@ -23,7 +23,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
     path('blog/', include('blog.urls')),
-    path('program_dashboard/', include('program_management.urls'))
+    path('program_dashboard/', include('program_management.urls')),
+    path('todolog/', include('todolog.urls')),
 
 ]
 

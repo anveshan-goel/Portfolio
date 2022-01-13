@@ -1,7 +1,5 @@
 {% extends "portfolio/base.html" %}
-
 {% load static %}
-
 {% block content %}
 
 <div class="row justify-content-center my-3">
@@ -24,8 +22,9 @@
 
     {% if project.url %}
     <!--<a href="{{ project.url }}">-->
-    <a href="{% url 'program-management:programManagementDashboard' %}">
-          <img src="{{ project.image.url }}" class="img-fluid mb-2">
+    <a href="{% url 'todolog:signupuser' %}">
+      <!--a href="{% url 'program-management:programManagementDashboard' %}"-->
+      <img src="{{ project.image.url }}" class="img-fluid mb-2">
     </a>
     {% else %}
 
